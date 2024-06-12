@@ -1,0 +1,46 @@
+.product-listing-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.listing-container{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.discount-timer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-timer span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.discount-timer .time {
+    padding: 10px 15px;
+    background-color: #007bff;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.discount-timer .time-label {
+    font-size: 16px;
+    color: #777;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
